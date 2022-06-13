@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Grilla {
+    display: grid;
+    background-color: #303030;
+}
+
+
+
+/* HEADER COMIENZO*/
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    color: #ffffff
+}
+nav ul li a {
+    color:#D99518;
+}
+
+.paginas {
+    display:flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.paginas li {
+    list-style: none
+}
+
+ .paginas a {
+    padding:15px;
+} 
+
+.header a{
+    text-decoration: none
+}
+
+ .header a:hover{
+    color: #ffffff;
+    font-weight:100;
+
+}
+/* HEADER FIN */
+
+/* MAIN */
+
+main {
+    background-color: rgb(14, 13, 13);
+    display: flex;
+}
+
+/* main de inicio COMIENZO */
+
+.inicio {
+    display: flex;
+    justify-content: center
+}
+
+.portada {  
+    width: 900px;
+    height: 650px;
+}
+
+/* main de inicio FIN */
+
+/* main de servicios COMIENZO */
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between
+}
+
+.servicios h2{
+   color: white;
+}
+
+.servicios p {
+    color: white;
+}
+
+.lugar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lugar {
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-color: #D99518;
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.envios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.envios{
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-color: #D99518;
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery{
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-color: #D99518;
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+/* main de servicios FIN */
+
+/* main de reserva COMIENZO */
+
+.reserva_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.reserva1{
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    background-color: #D99518;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.reserva {
+    color: #000000;
+    
+}
+
+.reserva {
+    position:absolute;
+    left: 615px;
+    top: 65px;
+}
+
+main .formulario h2 {
+    color: #ffffff
+}
+
+main .formulario p {
+    color: #ffffff
+}
+
+.reserva {
+    justify-content: center
+}
+
+/* main de reserva FIN */
+
+/* main de menu de comidas COMIENZO*/
+
+.imagen {
+    display: flex;
+    justify-content: center
+}
+
+.imagen2 {
+    max-width: 500px;
+}
+
+/* main menu de comidas FIN */
+
+/* main de imagenes COMIENZO */
+
+
+.galerialugar {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.imggal {
+    margin: 10px;
+}
+
+.imggal {
+    max-width: 480px;
+    min-width: 320px;
+    width: 100%
+}
+
+
+
+/* main de opinion FIN */
+
+/* MAIN */
+
+/* FOOTER */
+footer {
+    background-color:#F2D399;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* footer { } */
+/* FOOTER */
+
+/* MEDIA QUERY - Mobile last */
+
+@media (max-width: 768px) {
+  
+}
